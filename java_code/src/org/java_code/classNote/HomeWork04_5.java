@@ -27,3 +27,4 @@ public class HomeWork04_5 {
 	}
 	
 }
+// % 나누고 나머지

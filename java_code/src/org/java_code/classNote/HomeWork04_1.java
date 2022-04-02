@@ -4,7 +4,7 @@ public class HomeWork04_1 {
 
 	public static void main(String[] args) {
 		System.out.println("60161362 황호준");
-		int a = (int)(Math.random()*100);
+		int a = (int)(Math.random()*101);
 			System.out.println("난수 :"+a);
 			if (a>=90) {
 				 System.out.println("A");
