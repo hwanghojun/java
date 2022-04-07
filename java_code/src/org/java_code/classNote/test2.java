@@ -4,7 +4,7 @@ public class test2 {
 
 	public static void main(String[] args) {
 
-		// 첫번쨰
+		// 8-1 기출문제
 		int number = 1;
 		for (int g = 0; g < 5; g++) {
 			for (int h = 0; h < 5; h++) {

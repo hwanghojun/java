@@ -3,7 +3,7 @@ package org.java_code.classNote;
 public class test4 {
 
 	public static void main(String[] args) {
-		// 8-4
+		// 8-4 기출문제
 		int num = 15;
 		for (int q = 0; q < 5; q++) {
 			for (int w = 0; w < 5; w++) {
