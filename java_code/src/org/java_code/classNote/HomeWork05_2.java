@@ -13,6 +13,7 @@ public class HomeWork05_2 {
 			System.out.println();
 		}	
 
+		//if(i %5==0)
 	}
 
 }
