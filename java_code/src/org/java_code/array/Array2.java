@@ -16,6 +16,11 @@ public class Array2 {
 			System.out.println("과목명을 입력하세요. ");
 			String mySubject = HH.nextLine();
 			
+			for(int i=0; i<arSubject.length;i++) {
+				if(arSubject[i].equals(mySubject))
+				System.out.println(arSubject[i]+"의 점수는 :"+arScore[i]);
+			}
+			
 			if(mySubject.equals("그만")) break;
 		}
 		
