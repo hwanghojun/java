@@ -7,15 +7,23 @@ public class HomeWork06_2 {
 	public static void main(String[] args) {
 		System.out.println("60161362 황호준");
 		Scanner HH = new Scanner(System.in);
-		System.out.println("알파벳을 입력하시오. ");
-
-		while(true) {
-			String Small=HH.next();	
+		System.out.println("알파벳을 입력하시오. ('quit'입력시 종료)");
+			char first = 'z';
+			while(true) {
 			
-			if(Small.equals("quit")) break;
-		}	System.out.println("가장 빠른 알파벳은");
+				String Small = HH.nextLine();
+				if(Small.equals("quit")) break;
+				
+				char alpa = Small.charAt(0);
+			if(alpa<=first) {
+				 first =alpa;
+			}else{alpa = first;}
+		
+			
+			}System.out.println("가장 빠른 알파벳은 "+first+"이다.");
+			
+	}	
 		
 		
-	}
-
+		
 }
