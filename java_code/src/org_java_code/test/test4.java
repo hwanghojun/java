@@ -1,4 +1,4 @@
-package org.java_code.classNote;
+package org_java_code.test;
 
 public class test4 {
 
