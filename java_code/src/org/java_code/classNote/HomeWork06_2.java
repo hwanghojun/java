@@ -18,7 +18,7 @@ public class HomeWork06_2 {
 			if(alpa<=first) {
 				 first =alpa;
 			}else{alpa = first;}
-		
+			
 			
 			}System.out.println("가장 빠른 알파벳은 "+first+"이다.");
 			

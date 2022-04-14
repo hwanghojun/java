@@ -10,8 +10,8 @@ public class test8_2 {
 		int[] arNum =new int[5];
 		int first = 0;
 		for(int i=0;i<5;i++) {
-			int myNum = HH.nextInt();
-			first=first+myNum;
+			arNum[i] = HH.nextInt();
+			first=first+arNum[i];
 		}System.out.println("ÃÑÇÕÀº "+first);
 	}
 
