@@ -1,4 +1,4 @@
-package org_java_code.test;
+package org_java_code.preTest;
 
 public class test3 {
 

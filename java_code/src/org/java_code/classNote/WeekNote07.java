@@ -6,6 +6,10 @@ public class WeekNote07 {
 
 	public static void main(String[] args) {
 		Scanner HH = new Scanner(System.in);
+		//5-1 소수
+		//5-5 최대공약수 최소공배수
+		//6-2 quit if(Small.equals("quit")) break;
+		//이중배열 array5
 		// Str을 char로 형변환
 		String A = "A";
 		char B = A.charAt(0);
@@ -17,7 +21,7 @@ public class WeekNote07 {
 			}System.out.println();
 		}
 		
-		//랜덤알파벳 (소문자는 a:97 z:122)
+		//랜덤알파벳 (대문자는 A:65 Z:90소문자는 a:97 z:122) 32 25
 		char C = (char)(int)(Math.random()*25+65);
 		System.out.println(C);
 		

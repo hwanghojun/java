@@ -1,4 +1,4 @@
-package org_java_code.test;
+package org_java_code.preTest;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class test5 {
 				firstNum = myNum;
 			}
 		}System.out.println("가장 큰 수는 "+firstNum);
-
+		
 	}
 
 }

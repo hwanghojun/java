@@ -1,4 +1,4 @@
-package org_java_code.test;
+package org_java_code.preTest;
 
 import java.util.Scanner;
 
@@ -14,5 +14,6 @@ public class test8_2 {
 			first=first+arNum[i];
 		}System.out.println("ÃÑÇÕÀº "+first);
 	}
+	
 
 }
