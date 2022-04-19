@@ -1,6 +1,6 @@
 package org.java_code.classNote;
 
-public class WeekNote08 {
+public class WeekNote07_for {
 
 	public static void main(String[] args) {
 		// for 문 배열 모음
