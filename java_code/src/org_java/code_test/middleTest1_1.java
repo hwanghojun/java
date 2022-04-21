@@ -13,7 +13,7 @@ public class middleTest1_1 {
 		int result= 1;
 		for(int i=1;i<=a;i++) {
 			result=result*i;
-		}System.out.println(result);
+		}System.out.println(a+"! = "+result);
 		
 		
 	}

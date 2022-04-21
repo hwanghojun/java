@@ -9,7 +9,7 @@ public class middleTest1_2 {
 		System.out.println("2번");
 		System.out.println("입력: ");
 		int a = HH.nextInt();
-		if(a>0) {
+		if(a>0 && a<27) {
 			int b = a+64;
 		System.out.println((char)b);
 		}else {System.out.println(("1부터 26사이의 숫자를 입력하시오."));}
