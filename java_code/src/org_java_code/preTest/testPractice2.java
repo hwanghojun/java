@@ -6,6 +6,12 @@ public class testPractice2 {
 
 	public static void main(String[] args) {
 		Scanner HH = new Scanner(System.in);
+		char a ='-';
+		
+		
+		
+		
+		
 		char cum = (char)(Math.random()*3+65);
 		while(true) {
 			char a = HH.next().charAt(0);
@@ -15,6 +21,7 @@ public class testPractice2 {
 		}{System.out.println("Á¤´ä");}
 	
 	
+		
 	}
 		
 	}	
