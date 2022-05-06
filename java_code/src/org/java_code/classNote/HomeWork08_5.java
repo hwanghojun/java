@@ -53,7 +53,7 @@ public class HomeWork08_5 {
 				if (num == 0 && ladder[a][num + 1] == "- ") {
 					ladder[a][num + 1] = "¢¾ ";
 					ladder[a][num + 2] = "¢¾ ";
-					num = 2;
+					num += 2;
 				} else if (num == 6 && ladder[a][num - 1] == "- ") {
 					ladder[a][num - 1] = "¢¾ ";
 					ladder[a][num - 2] = "¢¾ ";
@@ -65,12 +65,14 @@ public class HomeWork08_5 {
 				} else if (num!=0 && ladder[a][num - 1] == "- ") {
 					ladder[a][num - 1] = "¢¾ ";
 					ladder[a][num - 2] = "¢¾ ";
-					num = 2;
+					num -= 2;
 				}
 			}
 			a++;
 		}
-		int result = num / 2 + 1;
+		int result=0;
+		if(num==0) {result=1;}
+		else {result= num / 2 + 1;}
 		for (int i = 0; i < ladder.length; i++) {
 			for (int j = 0; j < 7; j++) {
 				System.out.print(ladder[i][j]);
