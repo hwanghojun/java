@@ -71,8 +71,7 @@ public class HomeWork08_5 {
 			a++;
 		}
 		int result=0;
-		if(num==0) {result=1;}
-		else {result= num / 2 + 1;}
+		result= num / 2 + 1;
 		for (int i = 0; i < ladder.length; i++) {
 			for (int j = 0; j < 7; j++) {
 				System.out.print(ladder[i][j]);

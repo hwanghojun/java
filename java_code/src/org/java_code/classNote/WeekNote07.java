@@ -22,7 +22,7 @@ public class WeekNote07 {
 		}
 		
 		//랜덤알파벳 (대문자는 A:65 Z:90소문자는 a:97 z:122) 32 25
-		char C = (char)(int)(Math.random()*25+65);
+		char C = (char)(int)(Math.random()*26+65);
 		System.out.println(C);
 		
 		
