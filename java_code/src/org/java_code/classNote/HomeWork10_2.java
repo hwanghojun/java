@@ -24,3 +24,4 @@ public class HomeWork10_2 {
 	}
 	
 }
+	

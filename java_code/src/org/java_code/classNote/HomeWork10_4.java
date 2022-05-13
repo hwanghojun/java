@@ -17,7 +17,7 @@ public class HomeWork10_4 {
 		for(int i=65;i<=a;i++) {
 			if(i<=a) {
 				arr[n]=(char)i;
-				String result = String.valueOf(arr);
+				String result = String.valueOf(arr);  //valueof½ºÆ®¸µ °´Ã¼·Î º¯È¯½ÃÅ´
 				System.out.println(result);
 			}n++;
 		}
