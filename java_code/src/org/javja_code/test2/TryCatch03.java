@@ -1,4 +1,4 @@
-package org_javja_code.test2;
+package org.javja_code.test2;
 
 public class TryCatch03 {
 
