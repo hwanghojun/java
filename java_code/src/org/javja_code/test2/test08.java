@@ -15,9 +15,9 @@ public class test08 {
 			
 		}
 		int c=0;
+		System.out.println("숫자를 입력하시오.");
+		int a =HH.nextInt();
 		while(true) {
-			System.out.println("숫자를 입력하시오.");
-			int a =HH.nextInt();
 			for(int i=0;i<5;i++) {
 				if(arr[i]==a) {
 					c=1;
