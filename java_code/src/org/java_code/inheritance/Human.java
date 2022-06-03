@@ -5,6 +5,13 @@ public class Human {
 	public double height;
 	public String name;
 	
+	void breathe() {
+		System.out.println("ÈÞ");
+	}
+	public Human() {
+		age = 1;
+	}
+	
 	public void eat() {
 		System.out.println("¹äÀ» ¸Ô´Â´Ù.");
 	}

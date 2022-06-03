@@ -1,11 +1,23 @@
 package org.java_code.classNote;
 
 public class HomeWork13_1 {	
-	String name; //이름
- 	String sort; //종류
- 	int age;//나이
- 	String gender;
+	private String name; //이름
+	private String sort; //종류
+	private int age;//나이
+	private String gender;
  	//정보
+ 	public HomeWork13_1() {
+ 		this.age=0;
+ 	}
+ 	public HomeWork13_1(String name,String sort,String gender) {
+ 		this.name=name;
+ 		this.sort=sort;
+ 		this.gender=gender; 
+ 	}
+ 	public HomeWork13_1(int age) {
+ 		this.age=age;
+ 	}
+ 	
  	public void info() {
  		System.out.println("강아지 이름은 \'"+name+"\'입니다.");
  		System.out.println("강아지 종류는 \'"+sort+"\'입니다.");
@@ -26,11 +38,8 @@ public class HomeWork13_1 {
  	} 
 	public static void main(String[] args) {
 		System.out.println("60161362 황호준");
-		HomeWork13_1 dog = new HomeWork13_1();
-		dog.name="우리";
-		dog.sort="말티즈";
+		HomeWork13_1 dog = new HomeWork13_1("우리","말티즈","암컷");
 		dog.age=2;
-		dog.gender="암컷";
 		dog.info();
 		dog.vaccination(2);
 		dog.neutralization(1);

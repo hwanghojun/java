@@ -1,22 +1,21 @@
 package org.java_code.inheritance;
 
-public class Main {
+public class Main extends movie{
 	
+	public Main(String movie,String director,String date) {
+		super.movie(movie, date, director);
+	}
 	public static void main(String[] args) {
 		System.out.println("60161362 È²È£ÁØ");
+		Main s = new Main("½Â¸®È£","Á¶¼ºÈñ","2021-02-05");
+		
 		Netflix win = new Netflix();
-		win.movie="½Â¸®È£";
-		win.director="Á¶¼ºÈñ";
-		win.date="2021-02-05";
-		win.info();
 		win.onlyNetflix();
+		Main s1 = new Main("½Ã¹Ù º£ÀÌºñ","¿¥¸¶ ¼¿¸® ±×¸¸","2021-09-08");
 		
 		watcha baby = new watcha();
-		baby.movie="½Ã¹Ù º£ÀÌºñ";
-		baby.director="¿¥¸¶ ¼¿¸® ±×¸¸";
-		baby.date="2021-09-08";
-		baby.info();
 		baby.onlyWatcha();
 	}
 
 }
+
