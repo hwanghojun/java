@@ -1,4 +1,4 @@
-package org.javja_code.test2;
+package org.java_code.test_Final;
 
 public class classNote_test {
 
@@ -24,6 +24,12 @@ public class classNote_test {
 //		int bms[] = { small, middle, big };
 //		return bms;
 		
+		//접근제어자
+		//			클래스	패키지	하위클래스	  전체
+		//public 	O		O		O			O
+		//protect	O		O		O			X
+		//default	O		X		X			X
+		//private	O		X		X			X
 		
 		for(int i=1;i<6;i++) {
 			double a = Math.pow(2, i);
