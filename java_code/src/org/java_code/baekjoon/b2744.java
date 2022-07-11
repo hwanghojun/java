@@ -26,3 +26,5 @@ public class b2744 {
 }
 //  자바 대소문자 확인 함수  ex) Character.isUppercase  isDigit-> 슛자
 // 대소문자 변환 함수 toUpperCase() or toLowerCase()
+//x가 y 보다 크면 result에 x 를 대입하고 그렇지 않으면 y를 대입하시오.
+// result = ( x > y ) ? x:y;
