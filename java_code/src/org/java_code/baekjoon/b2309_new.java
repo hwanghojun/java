@@ -18,12 +18,13 @@ public class b2309_new {
 					Dwarf[i]=Dwarf[j]=0;
 					Arrays.sort(Dwarf);
 					break;
+					}
 				}
+				if(Dwarf[0]==0)break;
 			}
-			if(Dwarf[0]==0)break;
-		}
-		for(int i=2;i<9;i++) {
-			System.out.println(Dwarf[i]);
+		System.out.println(sum);
+		for(int k=2;k<9;k++) {
+			System.out.println(Dwarf[k]);
 		}
 	}
 }
