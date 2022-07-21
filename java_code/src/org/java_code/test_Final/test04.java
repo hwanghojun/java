@@ -23,7 +23,7 @@ public class test04 {
 		System.out.println(c.w());
 		System.out.println(c.x());
 		System.out.println(a.y());
-		System.out.println(a.z());
+//		System.out.println(a.z());
 	}
 
 }

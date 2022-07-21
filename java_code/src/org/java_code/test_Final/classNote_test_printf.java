@@ -1,6 +1,6 @@
 package org.java_code.test_Final;
 
-public class classNote_test {
+public class classNote_test_printf {
 
 	public static void main(String[] args) {
 //		%d : 정수형 출력
